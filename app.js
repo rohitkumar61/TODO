@@ -58,7 +58,7 @@ function filterItems(e) {
     Array.from(items).forEach(function(itemElement) {
         let itemName = itemElement.firstChild.textContent;
         if (itemName.toLowerCase().indexOf(txt) != -1) {
-            itemElement.style.display = "block";
+            itemElement.style.display = "flex";
         } else {
             itemElement.style.display = "none";
         }
